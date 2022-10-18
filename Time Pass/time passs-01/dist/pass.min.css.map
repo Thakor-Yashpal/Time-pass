@@ -1,0 +1,1 @@
+{"version":3,"sources":["pass.scss"],"names":[],"mappings":"AAAA,KACE,OAAQ,EAGV,IACE,SAAU,SACV,KAAM,IACN,IAAK,IACL,UAAW,qBACX,KAAM,KACN,MAAO","file":"pass.min.css","sourcesContent":["body {\r\n    margin: 0;\r\n}\r\n\r\nsvg {\r\n    position: absolute;\r\n    left: 50%;\r\n    top: 50%;\r\n    transform: translate(-50%, -50%);\r\n    fill: white;\r\n    width: 400px;\r\n}"]}

@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+    color: bisque;
+}
+
+body {
+    background-color: brown;
+    font-family: cursive;
+    text-align: center;
+    color: whitesmoke
+}
+
+.nav {
+    color: pink;
+    padding-top: 350px;
+    text-align: center;
+    font-size: 4em;
+}
+
+#p {
+    color: rgb(210, 197, 223);
+}
+
+a:hover {
+    color: rgb(210, 176, 176);
+}
+
+.right {
+    float: right;
+    font-size: 2.1em;
+}
+
+.left {
+    color: aliceblue;
+    font-size: 2.1em;
+    float: left;
+}
+
+button {
+    border-radius: 14.2px;
+    background-color: none;
+    color: navy;
+    -webkit-border-radius: 14.2px;
+    -moz-border-radius: 14.2px;
+    -ms-border-radius: 14.2px;
+    -o-border-radius: 14.2px;
+}
