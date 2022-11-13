@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="fun.css">
+</head>
+
+<body>
+    <form onsubmit="return false;">
+        <h2>Meal Plan</h2>
+
+        <h3>Dietary restrictions:</h3>
+
+        <input type="radio" name="diet" id="none" value="none" required>
+        <label for="none">None</label>
+        <br/><input type="radio" name="diet" id="vegetarian" value="vegetarian" required>
+        <label for="vegetarian">Vegetarian</label>
+        <br/><input type="radio" name="diet" id="lowcarb" value="lowcarb" required>
+        <label for="lowcarb">Low Carb</label>
+
+        <br />
+
+        <h3>Food items:</h3>
+        <input type="checkbox" name="Rice" id="rice" value="rice">
+        <label for="rice">Rice</label>
+        <br /><input type="checkbox" name="Beef" class="meat" id="beef" value="beef">
+        <label for="beef">Beef</label>
+        <br /><input type="checkbox" name="Bread" id="bread" value="bread">
+        <label for="bread">Bread</label>
+        <br /><input type="checkbox" name="Beans" class="veg" id="beans" value="beans">
+        <label for="beans">Beans</label>
+        <br /><input type="checkbox" name="Chicken" class="meat" id="chicken" value="chicken">
+        <label for="chicken">Chicken</label>
+        <br /><input type="checkbox" name="Carrots" class="veg" id="carrots" value="carrots">
+        <label for="carrots">Carrots</label>
+
+        <br /><br /><input type="submit" onclick="myFunction()" />
+    </form>
+    <script src="fun 2.js"></script>
+</body>
+
+</html>
